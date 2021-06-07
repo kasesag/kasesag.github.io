@@ -1,0 +1,7 @@
+AddType text/plain .asc
+
+Redirect /github https://github.com/kasesag
+Redirect /twitter https://twitter.com/kasesag
+Redirect /fediverse https://mstdn.social/@kasesag
+Redirect /telegram https://t.me/kasesag
+Redirect /reddit https://reddit.com/u/kasesag
