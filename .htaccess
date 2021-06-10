@@ -1,5 +1,9 @@
 AddType text/plain .asc
 
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 Redirect /github https://github.com/kasesag
 Redirect /twitter https://twitter.com/kasesag
 Redirect /fediverse https://mstdn.social/@kasesag
