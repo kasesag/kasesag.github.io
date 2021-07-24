@@ -1,0 +1,20 @@
+<head>
+	{{ if .IsHome }}
+	<title>{{ .Site.Title }}</title> 
+	{{ else }}
+	<title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+	{{ end }}
+	<meta charset="utf-8">
+	{{ hugo.Generator }}
+	<meta name="author" content="{{ .Site.Params.Author }}"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="shortcut icon" type="image/jpg" href="/files/av1.png"/>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/page.css">
+	<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+	<meta name="theme-color" content="#323d66">
+	<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}"/>
+</head>

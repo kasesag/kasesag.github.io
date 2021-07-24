@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ $Pages := .Pages }}
+
+{{ if .IsHome }}
+	{{ $Pages = where site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ end }}
+
+<article>
+	{{ if not .Data.Terms }}
+		<header>
+			<h1><a href="{{ "/" | relLangURL}}{{.Section}}">{{ .Section | humanize }}</a> / {{ .Title | default "List" }}</h1>
+		</header>
+	{{ else }}
+		<header><h1>{{ .Title | default "List" }}</h1></header>
+	{{ end }}
+
+	<ul class="archive">
+		{{- range $Pages }}
+		<li>
+		{{ if not .Data.Pages }}
+			{{ if .Date }}<time class="timestamp" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>{{ end }}
+		{{ end }}
+		<a href="{{ .Permalink }}">{{ .Title }}</a>
+		</li>
+		{{- end }}
+	</ul>
+</article>
+
+{{ end }}

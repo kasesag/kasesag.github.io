@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<article>
+	<header>
+		<h1>{{ .Title }}</h1>
+		{{ if eq .Type "blog" }}
+		<div class="article-info">
+			{{ if .Date }}<time class="timestamp" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 02, 2006" }}</time>{{ end }} /
+			{{ range (.GetTerms "categories") }}
+			<a href="{{ .Permalink }}">{{ .LinkTitle }}&nbsp;</a></li>
+			{{ end }}
+		</div>
+		{{- end }}
+	</header>
+	{{ .Content }}
+</article>
+
+{{ end }}

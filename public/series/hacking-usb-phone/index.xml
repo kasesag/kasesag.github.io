@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacking USB phone on kasesag&#39;s personal home page</title>
+    <link>https://kasesag.me/series/hacking-usb-phone/</link>
+    <description>Recent content in Hacking USB phone on kasesag&#39;s personal home page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>made with ♥ by kasesag © 2021</copyright>
+    <lastBuildDate>Mon, 09 Jun 2008 23:21:47 +0200</lastBuildDate><atom:link href="https://kasesag.me/series/hacking-usb-phone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello world!</title>
+      <link>https://kasesag.me/2008/06/hello-world/</link>
+      <pubDate>Mon, 09 Jun 2008 23:21:47 +0200</pubDate>
+      
+      <guid>https://kasesag.me/2008/06/hello-world/</guid>
+      <description>THIS ARTICLE IS ONLY FOR TEST PURPOSES Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>

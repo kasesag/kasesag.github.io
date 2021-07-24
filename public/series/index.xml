@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on kasesag&#39;s personal home page</title>
+    <link>https://kasesag.me/series/</link>
+    <description>Recent content in Series on kasesag&#39;s personal home page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>made with ♥ by kasesag © 2021</copyright>
+    <lastBuildDate>Mon, 09 Jun 2008 23:21:47 +0200</lastBuildDate><atom:link href="https://kasesag.me/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking USB phone</title>
+      <link>https://kasesag.me/series/hacking-usb-phone/</link>
+      <pubDate>Mon, 09 Jun 2008 23:21:47 +0200</pubDate>
+      
+      <guid>https://kasesag.me/series/hacking-usb-phone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English poetry</title>
+      <link>https://kasesag.me/series/english-poetry/</link>
+      <pubDate>Fri, 09 Jun 2006 23:21:47 +0200</pubDate>
+      
+      <guid>https://kasesag.me/series/english-poetry/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
