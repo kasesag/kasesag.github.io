@@ -1,4 +1,5 @@
 AddType text/plain .asc
+ErrorDocument 404 /404.html
 
 RewriteEngine On 
 RewriteCond %{HTTPS} off 
