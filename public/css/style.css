@@ -4,11 +4,6 @@ kasesag.me (c) All rights reserved
 */
 
 /* Base front */
-html {
-	box-sizing: border-box;
-	overflow-x: hidden;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0 !important;
