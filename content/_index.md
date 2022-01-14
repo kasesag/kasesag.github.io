@@ -3,7 +3,7 @@ title: "About me"
 ---
 
 ## Hello there!
-I'm Kacper 'kasesag' Sagalara, and I'm a 19-year-old boy who loves science, computing, hacking & LGBTQ community 🏳️‍🌈. 
+I'm Kacper 'kasesag' Sagalara, and I'm a 19-year-old boy who loves science, computing, hacking & LGBTQ people 🏳️‍🌈. 
 
 I'm mainly into tinkiering with computers and I really like to program in C/C++, Rust & Python. I may also use other languages in various projects. I also like to tinker with microcontrollers & electronics in general. 
 
