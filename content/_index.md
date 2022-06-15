@@ -22,5 +22,5 @@ All of my most interesting projects are not currently public. Maybe you can find
 	<li>Twitter (<a href="/twitter" target="blank">kasesag</a>)</li>
 	<li>Mastodon (<a rel="me" href="https://mstdn.social/@kasesag" target="blank">@kasesag@mstdn.social</a>)</li>
 	<li>Telegram (<a href="/telegram" target="blank">kasesag</a>)</li>
-	<li>Discord (<a href="/discord" target="blank">@kasesag#5130</a>)</li>
+	<li>Discord (kasesag#5130)</li>
 </ul>
