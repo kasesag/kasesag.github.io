@@ -157,6 +157,17 @@ tr:nth-child(even) {
 	text-decoration: underline;
 }
 
+#posts {
+	text-align: start;
+	list-style-type: square; 
+	list-style-position: outside;
+}
+
+.posts {
+	margin: auto;
+	font-size: 1.05em;
+}
+
 /* Site content */
 
 #content {
@@ -165,11 +176,6 @@ tr:nth-child(even) {
 	border-bottom: 0.1em solid #a1b1e7;
 	padding: 0.8em 0;
 	font-size: 1.1em;
-}
-
-.footer-list {
-	float: left;
-	width: 33%;
 }
 
 #footer {
@@ -199,12 +205,6 @@ tr:nth-child(even) {
 	}
 	.title {
 		font-size: 3em;
-	}
-}
-
-@media screen and (max-width : 500px) {
-	.footer-list {
-		width: 100%;
 	}
 }
 

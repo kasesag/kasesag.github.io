@@ -1,47 +1,16 @@
 {{ define "main" }}
-
+<h3>Blog posts:</h3>
+<ol id="posts">
 {{ range .Pages }}
-<article>
-	<header>
-		<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-		<div class="article-info">
+	<li class="posts">
+		<b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+		<span>(
 			{{ if .Date }}<time class="timestamp" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 02, 2006" }}</time>{{ end }} / 
 			{{ range (.GetTerms "categories") }}
-			<a href="{{ .Permalink }}">{{ .LinkTitle }}&nbsp;</a></li>
+			<a href="{{ .Permalink }}">{{ .LinkTitle }}&nbsp;</a>)
 			{{ end }}
-		</div>
-	</header>
-	{{ .Summary }}
-	{{- if .Truncated }}
-		<div class="more"><a href="{{ .RelPermalink }}">>> Read more...</a></div>
-	{{- end }}
-</article>
+		</span>
+	</li>
 {{- end }}
-<hr>
-<section class="footer-list">
-	<h3>Categories:</h3>
-	<ul>
-		{{ range .Site.Taxonomies.categories}}
-			<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-		{{ end }}
-	</ul>
-</section>
-<section class="footer-list">
-	<h3>Tags:</h3>
-	<ul>
-		{{ range .Site.Taxonomies.tags}}
-			<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-		{{ end }}
-	</ul>
-</section>
-<section class="footer-list">
-	<h3>Series:</h3>
-	<ul>
-		{{ range .Site.Taxonomies.series}}
-			<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-		{{ end }}
-	</ul>
-</section>
-<br style="clear:both;" />
-
+</ol>
 {{ end }}

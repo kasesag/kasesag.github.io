@@ -9,10 +9,10 @@
 <article>
 	{{ if not .Data.Terms }}
 		<header>
-			<h1><a href="{{ "/" | relLangURL}}{{.Section}}">{{ .Section | humanize }}</a> / {{ .Title | default "List" }}</h1>
+			<h3><a href="{{ "/" | relLangURL}}{{.Section}}">{{ .Section | humanize }}</a> / {{ .Title | default "List" }}</h3>
 		</header>
 	{{ else }}
-		<header><h1>{{ .Title | default "List" }}</h1></header>
+		<header><h3>{{ .Title | default "List" }}</h3></header>
 	{{ end }}
 
 	<ul class="archive">
