@@ -3,7 +3,7 @@ title: "About me"
 ---
 
 ## Hello there!
-I'm kasesag, and I'm a 19-year-old boy who loves science, computing, hacking & LGBTQ folks 🏳️‍🌈
+I'm kasesag, and I'm a 19-year-old guy who loves science, computing, hacking & LGBTQ folks 🏳️‍🌈
 
 I'm mainly into tinkiering with computers and I really like to program in C, Rust & Python. I may also use other languages in various projects. I also like to tinker with microcontrollers & electronics in general. 
 
