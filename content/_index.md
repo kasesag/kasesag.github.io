@@ -16,11 +16,11 @@ All of my most interesting projects are not currently public. Maybe you can find
 
 <p class="socials-info">You can find me on these services below. Feel free to contact me.</p>
 <ul class="socials">
-	<li>Github (<a href="/github" target="blank">kasesag</a>)</li>
+	<li>Github (<a href="https://github.com/kasesag" target="blank">kasesag</a>)</li>
 	<li>IRC (libera.chat: @kasesag)</li>
 	<li>Mail (contact@kasesag.me - my <a href="files/key.asc">PGP key</a>)</li>
-	<li>Twitter (<a href="/twitter" target="blank">kasesag</a>)</li>
+	<li>Twitter (<a href="https://twitter.com/kasesag" target="blank">kasesag</a>)</li>
 	<li>Mastodon (<a rel="me" href="https://mstdn.social/@kasesag" target="blank">@kasesag@mstdn.social</a>)</li>
-	<li>Telegram (<a href="/telegram" target="blank">kasesag</a>)</li>
+	<li>Telegram (<a href="https://t.me/kasesag" target="blank">kasesag</a>)</li>
 	<li>Discord (kasesag#5130)</li>
 </ul>
