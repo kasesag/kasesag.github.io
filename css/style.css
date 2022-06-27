@@ -1,0 +1,214 @@
+/* 
+style.css
+kasesag.me (c) All rights reserved
+*/
+
+/* Base front */
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0 !important;
+	color: #bbc8e7;
+	background-color: #121624;
+}
+
+a {
+	color: #4f7eff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 0.33em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	color: #7884ac;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 25px;
+}
+
+ul > li {
+	list-style-type: square;
+}
+
+li {
+	color: #b0badd;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 0.1em solid #a1b1e7;
+	margin: 0.8em 0;
+}
+
+code {
+	display: block;
+	background: rgb(31, 41, 70)!important;
+	color: #dae3ff!important;
+	max-width: 100%;
+	padding: 1em;
+	white-space: pre;
+	overflow-x: auto;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0.6em 0;
+	width: 100%;
+}
+  
+td, th {
+	border: 1px solid #a1b1e7;
+	text-align: left;
+	padding: 0.5em;
+}
+
+th {
+	background-color: #a1b1e7;
+	color: #121624;
+}
+
+tr:nth-child(even) {
+	background-color: #42495e; /* 7681a1 */
+}
+
+/* Site elements */
+#page {
+	padding: 3.51em 1.6em;
+	clear: both;
+	max-width: 800px;
+	margin: auto;
+}
+
+#header {
+	text-align: center;
+}
+
+#header-main {
+	margin: auto;
+	display: flex;
+	padding: 0.75em;
+	justify-content: center;
+}
+
+#profile-picture img {
+	width: 8.56em;
+	height: 8.56em;
+	border-radius: 10px;
+}
+
+#main-title {
+	margin: auto 2em;
+}
+
+.title {
+	font-size: 4.2em;
+	font-weight: 600;
+	color: #a1b1e7;
+	overflow: hidden;
+	border-right: .15em solid #a1b1e7;
+	white-space: nowrap;
+	letter-spacing: 0.03em;
+	animation: blinking 0.8s step-end infinite;
+}
+
+#menu {
+	font-size: 1.08em;
+	font-weight: 600;
+}
+
+#menu ul {
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0.66em 0;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+}
+
+#menu li a {
+	padding: 0 0.6em;
+	text-align: center;
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	color: #bbc8e7;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#posts {
+	text-align: start;
+	list-style-type: square; 
+	list-style-position: outside;
+}
+
+.posts {
+	margin: auto;
+	font-size: 1.05em;
+}
+
+/* Site content */
+
+#content {
+	clear: both;
+	border-top: 0.1em solid #a1b1e7;
+	border-bottom: 0.1em solid #a1b1e7;
+	padding: 0.8em 0;
+	font-size: 1.1em;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 1.1em;
+}
+
+.timestamp {
+	font-style: italic;
+	color: rgb(154, 189, 253);
+}
+
+/* Responsive layout */
+
+@media screen and (max-width : 600px) {
+	#page {
+		padding: 2.5em 1.4em;
+	}
+	#header img {
+		width: 6em;
+		height: 6em;
+	}
+	#main-title {
+		margin: auto 1.2em;
+	}
+	.title {
+		font-size: 3em;
+	}
+}
+
+@keyframes blinking {
+	from, to { border-color: transparent }
+	50% { border-color: #a1b1e7; }
+}
