@@ -14,7 +14,7 @@ author = "kasesag"
 description = "Hello there! I'm kasesag and this is my personal home page."
 # Header
 mainTitle = "kasesag."
-mainDescription = "I'm kasesag and this is my personal home page!"
+mainDescription = "💾 don't forget to insert a floppy before booting!"
 
 [permalinks]
 blog = "/:year/:month/:slug/"
