@@ -4,11 +4,18 @@
 			<img src="/files/av1.png" alt="This is where the picture was supposed to load.">
 		</div>
 		<div id="main-title">
-			<div class="title">{{ .Site.Params.MainTitle }}</div>
+			<div class="title">{{ .Site.Params.header.MainTitle }}</div>
 		</div>
 	</div>
-	<p>{{ .Site.Params.MainDescription }}</p>
-	
+
+	<script>
+		var arr = {{ .Site.Params.header.altDescriptions}};
+		
+		var randomNumber = Math.floor(Math.random()*arr.length);
+		document.write("<p>" + arr[randomNumber] + "</p>");
+	</script>
+	<noscript><p>{{ .Site.Params.header.mainDescription }}</p></noscript>
+
 	<div id="menu">
 		<ul>
 			{{ range .Site.Menus.nav }}
