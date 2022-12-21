@@ -8,13 +8,7 @@
 		</div>
 	</div>
 
-	<script>
-		var arr = {{ .Site.Params.header.altDescriptions}};
-		
-		var randomNumber = Math.floor(Math.random()*arr.length);
-		document.write("<p>" + arr[randomNumber] + "</p>");
-	</script>
-	<noscript><p>{{ .Site.Params.header.mainDescription }}</p></noscript>
+	<p>{{ .Site.Params.header.mainDescription }}</p>
 
 	<div id="menu">
 		<ul>

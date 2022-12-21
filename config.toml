@@ -14,17 +14,9 @@ summaryLength = 24
 author = "kasesag"
 description = "Hello there! I'm kasesag and this is my personal home page."
     
-    [params.header]
-    mainTitle = "kasesag."
-    mainDescription = "💾 don't forget to insert a floppy before booting!"
-    altDescriptions = [
-        "💾 don't forget to insert a floppy before booting!",
-        "welcome to my personal home page! 👋",
-        "shh, rainbow floppy inside ! 💾",
-        "Being Not Straight 🏳️‍🌈",
-        "Dreams. Fantasies. Ideas. Where do they go when life brings you tumbling back to the now?",
-        "СЛАВА УКРАЇНІ! 🇺🇦",
-    ]
+[params.header]
+mainTitle = "kasesag."
+mainDescription = "💾 don't forget to insert a floppy before booting!"
 
 [permalinks]
 blog = "/:year/:month/:slug/"
