@@ -1,6 +1,7 @@
 # kasesag.me hugo page config
 
 baseURL = "https://kasesag.me/"
+theme = "kasesag"
 author = "kasesag"
 title = "kasesag's personal home page"
 copyright = "made with ♥ by kasesag © 2022" 
@@ -45,7 +46,6 @@ blog = "/:year/:month/:slug/"
     # name = "Projects"
     # url = "/projects"
     # weight = 3
-
 
 [taxonomies]
 category = "categories"
