@@ -9,8 +9,8 @@ I'm mainly into tinkiering with computers and I really like to program in C, Rus
 
 Furthermore, I'm also keen on UNIX-like operating systems (such as Linux or NetBSD), and I virtually use them everywhere!
 
-## Projects
-All of my most interesting projects are not currently public. Maybe you can find some on my github profile...
+<!-- ## Projects
+All of my most interesting projects are not currently public. Maybe you can find some on my github profile... -->
 
 ## Contact & Socials
 <p class="socials-info">You can find me on these services below. Feel free to contact me.</p>

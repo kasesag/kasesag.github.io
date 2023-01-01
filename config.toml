@@ -1,10 +1,11 @@
 # kasesag.me hugo page config
+# TODO: refactor kasesag theme & create classic theme
 
 baseURL = "https://kasesag.me/"
 theme = "kasesag"
 author = "kasesag"
 title = "kasesag's personal home page"
-copyright = "made with ♥ by kasesag © 2022" 
+copyright = "made with ♥ by kasesag"
 languageCode = "en"
 DefaultContentLanguage = "en"
 pluralizelisttitles = false
