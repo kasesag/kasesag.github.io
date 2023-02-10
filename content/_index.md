@@ -24,7 +24,6 @@ All of my most interesting projects are not currently public. Maybe you can find
 
 <p class="socials-info">Socials & stuff</p>
 <ul class="socials">
-	<li>Mastodon (<a rel="me" href="https://tech.lgbt/@kasesag" target="blank">@kasesag@tech.lgbt</a>)</li>
 	<li>Codeberg (<a href="https://codeberg.org/kasesag" target="blank">kasesag</a>)</li>
 	<li>Github (<a href="https://github.com/kasesag" target="blank">kasesag</a>)</li>
 	<li>Pronouns.page (<a href="https://en.pronouns.page/@kasesag" target="blank">@kasesag</a>)</li>
