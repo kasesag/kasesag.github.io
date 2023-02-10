@@ -123,7 +123,7 @@ tr:nth-child(even) {
 	border-right: .15em solid #a1b1e7;
 	white-space: nowrap;
 	letter-spacing: 0.03em;
-	animation: blinking 0.8s step-end infinite;
+	animation: blinking 1s step-end infinite;
 }
 
 #menu {
