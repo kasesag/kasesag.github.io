@@ -3,9 +3,8 @@
 
 baseURL = "https://kasesag.me/"
 theme = "kasesag"
-author = "kasesag"
+
 title = "kasesag's personal home page"
-copyright = "made with ♥ by kasesag"
 languageCode = "en"
 DefaultContentLanguage = "en"
 pluralizelisttitles = false
@@ -14,10 +13,7 @@ summaryLength = 24
 [params]
 author = "kasesag"
 description = "Hello there! I'm kasesag and this is my personal home page."
-    
-[params.header]
-mainTitle = "kasesag."
-mainDescription = "💾 don't forget to insert a floppy before booting!"
+headDescription = "💾 don't forget to insert a floppy before booting!"
 
 [permalinks]
 blog = "/:year/:month/:slug/"
