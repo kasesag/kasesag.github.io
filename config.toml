@@ -1,5 +1,4 @@
 # kasesag.me hugo page config
-# TODO: refactor kasesag theme & create classic theme
 
 baseURL = "https://kasesag.me/"
 theme = "kasesag"
