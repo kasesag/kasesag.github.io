@@ -10,14 +10,14 @@ I'm mainly into tinkiering with computers and I really like to program in C, Rus
 Furthermore, I'm also keen on UNIX-like operating systems (such as Linux or NetBSD), and I virtually use them everywhere!
 
 <!-- ## Projects
-All of my most interesting projects are not currently public. Maybe you can find some on my github profile... -->
+All of my most interesting projects are not currently public. Maybe you can find some on my [ codeberg or 'owngit' ] profile... -->
 
 ## Contact & Socials
 <p class="socials-info">You can find me on these services below. Feel free to contact me.</p>
 <ul class="socials">
 	<li>Mail (contact@kasesag.me - my <a href="files/kasesag.asc">PGP key</a>)</li>
 	<li>Matrix (<a href="https://matrix.to/#/@kasesag:matrix.org">@kasesag:matrix.org</a>)</li>
-	<li>Discord (kasesag#5130)</li>
+	<li><del>Discord (kasesag#5130)</del> <span style="font-weight: bold;">[ <a href="/2023/04/deprecating-discord/">deprecated</a> ]</span></li>
 	<li>Telegram (<a href="https://t.me/kasesag" target="blank">kasesag</a>)</li>
 	<li>IRC (libera.chat: @kasesag)</li>
 </ul>
